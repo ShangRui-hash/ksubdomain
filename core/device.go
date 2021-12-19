@@ -3,12 +3,13 @@ package core
 import (
 	"context"
 	"fmt"
+	"net"
+	"time"
+
+	"github.com/ShangRui-hash/ksubdomain/gologger"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
-	"ksubdomain/gologger"
-	"net"
-	"time"
 )
 
 func AutoGetDevices() EthTable {

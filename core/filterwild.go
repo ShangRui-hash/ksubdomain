@@ -2,11 +2,12 @@ package core
 
 import (
 	"fmt"
-	"ksubdomain/gologger"
 	"math"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/ShangRui-hash/ksubdomain/gologger"
 )
 
 type Pair struct {

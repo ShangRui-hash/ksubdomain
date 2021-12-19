@@ -1,9 +1,10 @@
 package core
 
 import (
-	"github.com/tealeg/xlsx"
-	"ksubdomain/gologger"
 	"strings"
+
+	"github.com/ShangRui-hash/ksubdomain/gologger"
+	"github.com/tealeg/xlsx"
 )
 
 func OutputExcel(filename string) {

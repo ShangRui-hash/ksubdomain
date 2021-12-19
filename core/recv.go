@@ -2,15 +2,16 @@ package core
 
 import (
 	"bufio"
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/pcap"
-	"ksubdomain/gologger"
 	"os"
 	"strconv"
 	"strings"
 	"sync/atomic"
 	"time"
+
+	"github.com/ShangRui-hash/ksubdomain/gologger"
+	"github.com/google/gopacket"
+	"github.com/google/gopacket/layers"
+	"github.com/google/gopacket/pcap"
 )
 
 func Recv(device string, options *Options, flagID uint16, retryChan chan RetryStruct) {

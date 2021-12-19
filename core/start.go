@@ -3,19 +3,20 @@ package core
 import (
 	"bufio"
 	"context"
-	"github.com/google/gopacket/pcap"
-	ratelimit "golang.org/x/time/rate"
 	"io"
-	"ksubdomain/gologger"
 	"math/rand"
 	"os"
 	"strings"
 	"sync/atomic"
 	"time"
+
+	"github.com/ShangRui-hash/ksubdomain/gologger"
+	"github.com/google/gopacket/pcap"
+	ratelimit "golang.org/x/time/rate"
 )
 
 func PrintStatus() {
-	gologger.Printf("\rSuccess:%d Sent:%d Recved:%d Faild:%d", SuccessIndex, SentIndex, RecvIndex, FaildIndex)
+	// gologger.Printf("\rSuccess:%d Sent:%d Recved:%d Faild:%d", SuccessIndex, SentIndex, RecvIndex, FaildIndex)
 }
 func Start(options *Options) {
 	version := pcap.Version()

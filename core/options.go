@@ -2,9 +2,10 @@ package core
 
 import (
 	"flag"
-	"ksubdomain/gologger"
 	"os"
 	"strconv"
+
+	"github.com/ShangRui-hash/ksubdomain/gologger"
 )
 
 type Options struct {

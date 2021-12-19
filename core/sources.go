@@ -1,9 +1,10 @@
 package core
 
 import (
-	"github.com/logrusorgru/aurora"
-	"ksubdomain/gologger"
 	"sync"
+
+	"github.com/ShangRui-hash/ksubdomain/gologger"
+	"github.com/logrusorgru/aurora"
 )
 
 type void struct{}

@@ -2,9 +2,11 @@ package core
 
 import (
 	"bufio"
+
+	"github.com/ShangRui-hash/ksubdomain/gologger"
+
 	"github.com/rakyll/statik/fs"
-	"ksubdomain/gologger"
-	_ "ksubdomain/statik"
+
 	"net"
 	"os"
 	"path/filepath"

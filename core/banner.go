@@ -1,8 +1,6 @@
 package core
 
-import (
-	"ksubdomain/gologger"
-)
+import "github.com/ShangRui-hash/ksubdomain/gologger"
 
 const Version = "0.7"
 const banner = `
